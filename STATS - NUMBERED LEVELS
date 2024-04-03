@@ -160,29 +160,29 @@ Execute the following javascript:
 
 Name: STATS - LEVELS - WISDOM
 Type: regexp
-Pattern: (inane and |stupid and|idiotic and|foolish and|uneducated and|literate and|educated and|learned and|scholarly and|cultivated and|knowledge and|able and|erudite and|wise and|sage and|enlightened and|epic wisdom and|immortal wisdom and|supreme wisdom and|extraordinary wisdom and|incredible wisdom and|unbelievable wisdom and|miraculous wisdom and|impossible wisdom and)
+Pattern: (inane and |stupid and|idiotic and|foolish and|uneducated and|literate and|educated and|learned and|scholarly and|cultivated and|knowledge and| able and|erudite and|wise and|sage and|enlightened and|epic wisdom and|immortal wisdom and|supreme wisdom and|extraordinary wisdom and|incredible wisdom and|unbelievable wisdom and|miraculous wisdom and|impossible wisdom and)
 
 Execute the following javascript:
-     gwc.output.replace(‘inane and', ‘inane (1/23) and');
-     gwc.output.replace(‘stupid and', ‘stupid (2/23) and');
-     gwc.output.replace(‘idiotic and ', ‘idiotic (3/23) and');
-     gwc.output.replace(‘foolish and ', ‘foolish (4/23) and');
-     gwc.output.replace(‘uneducated and ', ‘uneducated (5/23) and');
-     gwc.output.replace(‘literate and ', ‘literate (6/23) and');
-     gwc.output.replace(‘educated and ', ‘educated (7/23) and');
-     gwc.output.replace(‘learned and', ‘learned (8/23) and');
-     gwc.output.replace('scholarly, and', 'scholarly (9/23) and');
-     gwc.output.replace(‘cultivated and ', ‘cultivated (10/23) and');
-     gwc.output.replace(‘knowledge and', ‘knowledge (11/23) and');
-     gwc.output.replace(‘able and ', ‘able (12/23) and');
-     gwc.output.replace(‘erudite and ', ‘erudite (13/23) and');
-     gwc.output.replace(‘wise and', ‘wise (14/23) and');
-     gwc.output.replace(‘sage and', ‘sage (15/23) and');
-     gwc.output.replace('epic wisdom and', 'epic wisdom (16/23) and');
-     gwc.output.replace('immortal wisdom and', 'immortal wisdom (17/23) and');
-     gwc.output.replace('supreme wisdom and ', 'supreme wisdom (18/23) and');
-     gwc.output.replace('extraordinary wisdom and', 'extraordinary wisdom (19/23 and');
-     gwc.output.replace('incredible wisdom and ' , 'incredible wisdom (20/23) and');
-     gwc.output.replace('unbelievable wisdom and ', 'unbelievable wisdom (21/23) and');
-     gwc.output.replace('miraculous wisdom and ', 'miraculous wisdom (22/23) and');
-     gwc.output.replace('impossible wisdom and', 'impossible wisdom (23/23) and');
+     gwc.output.replace('inane and ', 'inane (1/23) and ');
+     gwc.output.replace('stupid and ', 'stupid (2/23) and ');
+     gwc.output.replace('idiotic and  ', 'idiotic (3/23) and ');
+     gwc.output.replace('foolish and ', 'foolish (4/23) and ');
+     gwc.output.replace('uneducated and ', 'uneducated (5/23) and ');
+     gwc.output.replace('literate and ', 'literate (6/23) and ');
+     gwc.output.replace('educated and ', 'educated (7/23) and ');
+     gwc.output.replace('learned and ', 'learned (8/23) and ');
+     gwc.output.replace('scholarly, and ', 'scholarly (9/23) and ');
+     gwc.output.replace('cultivated and ', 'cultivated (10/23) and ');
+     gwc.output.replace('knowledge and ', 'knowledge (11/23) and ');
+     gwc.output.replace(' able and ',  ' able (12/23) and ');
+     gwc.output.replace('erudite and ', 'erudite (13/23) and ');
+     gwc.output.replace('wise and ', 'wise (14/23) and ');
+     gwc.output.replace('sage and ', 'sage (15/23) and ');
+     gwc.output.replace('epic wisdom and ', 'epic wisdom (16/23) and ');
+     gwc.output.replace('immortal wisdom and ', 'immortal wisdom (17/23) and ');
+     gwc.output.replace('supreme wisdom and ', 'supreme wisdom (18/23) and ');
+     gwc.output.replace('extraordinary wisdom and ', 'extraordinary wisdom (19/23 and ');
+     gwc.output.replace('incredible wisdom and ' , 'incredible wisdom (20/23) and ');
+     gwc.output.replace('unbelievable wisdom and ', 'unbelievable wisdom (21/23) and ');
+     gwc.output.replace('miraculous wisdom and ', 'miraculous wisdom (22/23) and ');
+     gwc.output.replace('impossible wisdom and ', 'impossible wisdom (23/23) and ');

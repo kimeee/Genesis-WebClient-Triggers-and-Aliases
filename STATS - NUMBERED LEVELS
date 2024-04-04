@@ -3,32 +3,32 @@
 
 Name: STATS - LEVELS - CONSTITUTION
 Type: regexp
-Pattern: (sickly|fragile|frail|skinny|lean|healthy|firm|hearty|hardy|hale|robust|staunch|tough|sturdy|vigorous|epic constitution|immortal constitution|supreme constitution|extraordinary constitution|incredible constitution|unbelievable constitution|miraculous constitution|impossible constitution)
+Pattern: (, sickly, |, fragile, |, frail, |, skinny, |, lean, |, healthy, |, firm, |, hearty, |, hardy, |, hale, |, robust, |, staunch, |, tough, |, sturdy, |, vigorous, |, epic constitution, |, immortal constitution, |, supreme constitution, |, extraordinary constitution, |, incredible constitution, |, unbelievable constitution, |, miraculous constitution, |, impossible constitution, )
 
 Execute the following javascript:
-     gwc.output.replace('sickly, ', 'sickly (1/23), ');
-     gwc.output.replace('fragile, ', 'fragile (2/23), ');
-     gwc.output.replace('frail, ', 'frail (3/23), ');
-     gwc.output.replace('skinny, ', 'skinny (4/23), ');
-     gwc.output.replace('lean, ', 'lean (5/23), ');
-     gwc.output.replace('healthy, ', 'healthy (6/23), ');
-     gwc.output.replace('firm, ', 'firm (7/23), ');
-     gwc.output.replace('hearty, ', 'hearty (8/23), ');
-     gwc.output.replace('hardy, ', 'hardy (9/23), ');
-     gwc.output.replace('hale, ', 'hale (10/23), ');
-     gwc.output.replace('robust, ', 'robust (11/23), ');
-     gwc.output.replace('staunch, ', 'staunch (12/23), ');
-     gwc.output.replace('tough, ', 'tough (13/23), ');
-     gwc.output.replace('sturdy, ', 'sturdy (14/23), ');
-     gwc.output.replace('vigorous, ', 'vigorous (15/23), ');
-     gwc.output.replace('epic constitution, ', 'epic constitution (16/23), ');
-     gwc.output.replace('immortal constitution, ', 'immortal constitution (17/23), ');
-     gwc.output.replace('supreme constitution, ', 'supreme constitution (18/23), ');
-     gwc.output.replace('extraordinary constitution, ', 'extraordinary constitution (19/23), ');
-     gwc.output.replace('incredible constitution, ' , 'incredible constitution (20/23), ');
-     gwc.output.replace('unbelievable constitution, ', 'unbelievable constitution (21/23), ');
-     gwc.output.replace('miraculous constitution, ', 'miraculous constitution (22/23), ');
-     gwc.output.replace('impossible constitution, ', 'impossible constitution (23/23), ');
+     gwc.output.replace(', sickly, ', ', sickly (1/23), ');
+     gwc.output.replace(', fragile, ', ', fragile (2/23), ');
+     gwc.output.replace(', frail, ', ', frail (3/23), ');
+     gwc.output.replace(', skinny, ', ', skinny (4/23), ');
+     gwc.output.replace(', lean, ', ', lean (5/23), ');
+     gwc.output.replace(', healthy, ', ', healthy (6/23), ');
+     gwc.output.replace(', firm, ', ', firm (7/23), ');
+     gwc.output.replace(', hearty, ', ', hearty (8/23), ');
+     gwc.output.replace(', hardy, ', ', hardy (9/23), ');
+     gwc.output.replace(', hale, ', ', hale (10/23), ');
+     gwc.output.replace(', robust, ', ', robust (11/23), ');
+     gwc.output.replace(', staunch, ', ', staunch (12/23), ');
+     gwc.output.replace(', tough, ', ', tough (13/23), ');
+     gwc.output.replace(', sturdy, ', ', sturdy (14/23), ');
+     gwc.output.replace(', vigorous, ', ', vigorous (15/23), ');
+     gwc.output.replace(', epic constitution, ', ', epic constitution (16/23), ');
+     gwc.output.replace(', immortal constitution, ', ', immortal constitution (17/23), ');
+     gwc.output.replace(', supreme constitution, ', ', supreme constitution (18/23), ');
+     gwc.output.replace(', extraordinary constitution, ', ', extraordinary constitution (19/23), ');
+     gwc.output.replace(', incredible constitution, ' , ', incredible constitution (20/23), ');
+     gwc.output.replace(', unbelievable constitution, ', ', unbelievable constitution (21/23), ');
+     gwc.output.replace(', miraculous constitution, ', ', miraculous constitution (22/23), ');
+     gwc.output.replace(', impossible constitution, ', ', impossible constitution (23/23), ');
 
 
 
